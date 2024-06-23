@@ -36,9 +36,7 @@ const Login = () => {
         <button type="submit" className="btn btn-block" disabled={isSubmitting}>
           {isSubmitting ? "submitting..." : "submit"}
         </button>
-        <button type="button" className="btn btn-block">
-          Explore the App
-        </button>
+
         <p>
           Not a Memeber yet?
           <Link to="/register" className="member-btn">
